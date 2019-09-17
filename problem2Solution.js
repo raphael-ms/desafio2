@@ -15,12 +15,8 @@
       ['endereço', 'cardinality', 'one'],
       ['telefone', 'cardinality', 'many']
   ];
-
-  function rightCount(value) {
-    return value = 10;
-  }
+  
   const byVal = (arr, value) => arr.filter(f => f.includes(value))
-  const isAdded = (arr, index) => arr.filter(f => f[index])
   const persons = arr => arr.reduce(function (a, b) { if (!a.includes(b[0])) a.push(b[0]); return a; }, []);
   const input = arr => arr.reduce(function (a, b) { if (!a.includes(b[2])) a.push(b[2]); return a; }, []);
 
